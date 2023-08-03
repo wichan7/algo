@@ -1,3 +1,4 @@
+console.time('code');
 let line = require("fs").readFileSync("./7576.input", "utf8");
 //let line = require("fs").readFileSync("/dev/stdin", "utf8");
 let input = line.trim().replace(/\r/gi, "").split("\n");
@@ -70,3 +71,4 @@ box.push(new Array(M+2).fill(-1));
     console.log(count);
     return;
 })();
+console.timeEnd('code');
