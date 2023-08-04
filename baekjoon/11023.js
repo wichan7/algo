@@ -1,0 +1,2 @@
+console.log(require("fs").readFileSync("./11023.input", "utf8").split("\n")[0].split(" ").reduce( (a, c) => a + parseInt(c), 0));
+// console.log(require("fs").readFileSync("./dev/stdin", "utf8").split("\n")[0].split(" ").reduce( (a, c) => a + parseInt(c), 0));
