@@ -22,3 +22,4 @@ function getDivisorsByLoop(n) {
     }
 
     return result;
+}
