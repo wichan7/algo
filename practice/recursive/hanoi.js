@@ -1,5 +1,5 @@
 function hanoi(n, start, dest, other) {
-    if (n === 1) return;
+    if (n === 0) return;
     hanoi(n - 1, start, other, dest);
     console.log(`${start} to ${dest}`);
     hanoi(n - 1, other, dest, start);
