@@ -119,5 +119,3 @@ function solution(board) {
 
     return -1;
 }
-
-console.log(solution(["...D..R", ".D.G...", "....D.D", "D....D.", "..D...."]));
