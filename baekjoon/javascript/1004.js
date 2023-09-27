@@ -1,3 +1,4 @@
+// https://www.acmicpc.net/problem/1004
 /*
 2 // 테스트 케이스 개수
 -5 1 12 1 // 점 x1, y1 점x2, y2
