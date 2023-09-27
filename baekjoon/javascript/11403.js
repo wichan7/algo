@@ -1,3 +1,4 @@
+// https://www.acmicpc.net/problem/11403
 const fs = require("fs");
 const inputs = fs.readFileSync("./11403.input", "utf-8").split("\n");
 // const inputs = fs.readFileSync("./dev/stdin", "utf-8").split("\n");
