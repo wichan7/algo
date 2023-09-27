@@ -1,7 +1,6 @@
 // https://www.acmicpc.net/problem/2178
 
-// const inputs = require("fs").readFileSync("./dev/stdin", "utf-8").replace(/\r/g, "").split("\n");
-const inputs = require("fs").readFileSync("./2178.input", "utf-8").replace(/\r/g, "").split("\n");
+const inputs = require("fs").readFileSync("./dev/stdin", "utf-8").replace(/\r/g, "").split("\n");
 const [N, M] = inputs[0].split(" ").map(n => parseInt(n));
 
 function solution() {
