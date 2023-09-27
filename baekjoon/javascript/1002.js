@@ -1,3 +1,4 @@
+// https://www.acmicpc.net/problem/1002
 let fs = require('fs');
 // let input = fs.readFileSync('/dev/stdin').toString().split('\n');
 let input = fs.readFileSync('1002.input').toString().replace(/\r/gi, "").split("\n");
