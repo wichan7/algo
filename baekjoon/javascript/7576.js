@@ -1,3 +1,4 @@
+// https://www.acmicpc.net/problem/7576
 console.time('code');
 let line = require("fs").readFileSync("./7576.input", "utf8");
 //let line = require("fs").readFileSync("/dev/stdin", "utf8");
