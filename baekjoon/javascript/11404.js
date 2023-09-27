@@ -1,6 +1,5 @@
 // https://www.acmicpc.net/problem/11404
-// const inputs = require("fs").readFileSync("./dev/stdin", "utf-8").trim().replace(/\r/g, "").split("\n");
-const inputs = require("fs").readFileSync("./11404.input", "utf-8").trim().replace(/\r/g, "").split("\n");
+inputs = require("fs").readFileSync("./dev/stdin", "utf-8").trim().replace(/\r/g, "").split("\n");
 const N = Number(inputs[0]);
 const vertices = inputs.slice(2).map( el => el.split(" ").map( e => Number(e) ) );
 const map = new Array(N).fill(0).map( el => new Array(N).fill(Infinity) );
