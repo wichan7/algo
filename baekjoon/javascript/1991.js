@@ -1,6 +1,5 @@
 // https://www.acmicpc.net/problem/1991
-// const inputs = require("fs").readFileSync("./dev/stdin", "utf-8").replace(/\r/g, "").split("\n");
-const inputs = require("fs").readFileSync("./1991.input", "utf-8").replace(/\r/g, "").split("\n");
+const inputs = require("fs").readFileSync("./dev/stdin", "utf-8").replace(/\r/g, "").split("\n");
 const N = Number(inputs[0]);
 const nodes = inputs.slice(1, inputs.length).map(e => e.split(" "));
 const tree = {};
