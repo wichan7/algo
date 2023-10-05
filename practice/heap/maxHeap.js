@@ -7,7 +7,7 @@ class MaxHeap {
 
     size = () => this.heap.length - 1;
 
-    peek = () => this.heap[1] ? this.heap[1] : null;
+    peek = () => this.heap[1] !== undefined ? this.heap[1] : null;
 
     push = (value) => {
         this.heap.push(value);
